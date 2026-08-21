@@ -281,7 +281,7 @@ cd techstore-backend
 Crie o banco:
 
 ```sql
-CREATE DATABASE techstore;
+CREATE DATABASE techstore_db;
 ```
 
 Depois configure suas credenciais no:
