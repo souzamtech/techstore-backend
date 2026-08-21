@@ -193,7 +193,7 @@ Antes de executar o backend, é necessário criar o banco de dados.
 Abra o MySQL e execute:
 
 ```sql
-CREATE DATABASE techstore;
+CREATE DATABASE techstore_db;
 ```
 
 Depois, verifique se o banco foi criado:
@@ -255,7 +255,7 @@ Portanto, não é necessário criar manualmente a tabela de produtos antes da pr
 O banco de dados, entretanto, precisa existir:
 
 ```sql
-CREATE DATABASE techstore;
+CREATE DATABASE techstore_db;
 ```
 
 ---
@@ -293,7 +293,7 @@ src/main/resources/application.properties
 Exemplo:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/techstore
+spring.datasource.url=jdbc:mysql://localhost:3306/techstore_db
 spring.datasource.username=root
 spring.datasource.password=SUA_SENHA
 ```
